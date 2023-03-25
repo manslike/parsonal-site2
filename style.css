@@ -1,0 +1,183 @@
+
+/******* header-area ******/
+.header-area {
+	background-image: url('images/header-bg.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 50px 0 150px 0;
+}
+.container {
+	width: 80%;
+	margin: auto;
+}
+.header-menu {
+	overflow: hidden;
+	font-family: 'Myriad Pro Condensed';
+}
+
+.logo-area {
+	width: 40%;
+	float: left;
+	overflow: hidden;
+}
+.logo-area h4 {
+	color: #FFFFFF;
+}
+.menu {
+	float: right;
+}
+
+.menu nav ul li {
+	list-style: none;
+	display: inline;
+
+}
+.menu nav ul li a {
+	color: #FFFFFF;
+	margin-right: 20px;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+.menu nav ul li a:hover {
+	color: #1abc9c;
+	text-decoration: none;
+	transition: .4s;
+}
+.into {
+	margin-top: 50px;
+}
+.into h1,
+.into h3,
+.into a {
+	color: #FFFFFF;
+}
+.into h1 {
+	font-family: 'Rokkitt', serif;
+	font-size: 52px;
+	margin-bottom: 0;
+}
+.into hr {
+	width: 60%;
+	margin: auto;
+	color: #ffffff;
+}
+.into h3 {
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: 1px;
+	margin-top: 10px;
+}
+.into a {
+	text-transform: uppercase;
+	background: #1abc9c;
+	padding: 10px 50px;
+	font-size: 20px;
+	box-shadow: 5px 5px 0 5px transparent;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 40px;
+	border: 1px solid transparent;
+}
+.into a:hover {
+	background: transparent;
+	border: 1px solid #1abc9c;
+	color: #1abc9c;
+	transition: .4s;
+}
+
+/******** portfolio-area ********/
+
+.portfolio-area {
+	overflow: hidden;
+	padding: 100px 0 50px;
+}
+.portfolio-area-header {
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.portfolio-area-header h2 {
+	font-family: 'Myriad Pro Bold';
+	color: #1abc9c;
+	margin-bottom: 40px;
+	font-size: 40px;
+}
+.portfolio-area-header p {
+	font-family: 'Myriad Pro Regular';
+	color: #95a5a6;
+	font-size: 18px;
+}
+
+.work h4 {
+	font-family: 'Myriad Pro Bold';
+	color: #1abc9c;
+}
+.work p {
+	font-family: 'Myriad Pro Regular';
+	color: #95a5a6;
+	text-align: justify;
+}
+
+
+/******* images-area ******/
+
+.images-area {
+	overflow: hidden;
+	padding: 60px 0 80px;
+}
+.sec1 {
+	margin-bottom: 60px;
+}
+.sec2 {
+	margin-bottom: 100px;
+}
+
+.lkn a {
+	background: #1abc9c;
+	color: #FFFFFF;
+	border: 1px solid transparent;
+	font-size: 25px;
+	padding: 10px 30px;
+	font-family: 'Rokkitt', serif;
+	text-transform: uppercase;
+}
+.lkn a:hover {
+	color: #1abc9c;
+	background: transparent;
+	border: 1px solid #1abc9c;
+	text-decoration: none;
+}
+
+/******** form-area ********/
+
+.form-area {
+	overflow: hidden;
+	padding: 100px 0;
+}
+.form-area h2 {
+	color: #1abc9c;
+	text-transform: uppercase;
+	font-size: 60px;
+	font-family: 'Rokkitt', serif;
+	margin-bottom: 60px;
+}
+.form-area form input[type="text"],
+.form-area form input[type="email"] {
+	background: #e4e8e8;
+	border: none;
+	padding: 20px 60px 20px 20px;
+	margin-bottom: 35px;
+	margin-right: 20px;
+	font-size: 25px;
+}
+.form-area form input[type="email"] {
+	padding: 20px 60px 20px 20px;
+}
+.form-area form input[type="text"] {
+	padding: 20px 60px 20px 15px;
+	margin-left: 10px;
+}
+.form-area textarea {
+	background: #e4e8e8;
+	border: none;
+	width: 100%;
+}

@@ -1,0 +1,13 @@
+ @media all and (max-width: 768px) {
+ 	.menu {
+ 		float: none;
+ 		width: 100%;
+ 		margin: auto;
+ 		text-align: center;
+ 	}
+ 	.logo-area {
+ 		float: none;
+ 		text-align: center;
+ 		width: 100%;
+ 	}
+ }
